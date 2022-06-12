@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="google_styles.css">
+    </head>
+    <body class="whiteText">
+        <div style="text-align: right; ">
+            <a href="index.html" class="links">Google Search</a>
+        </div>
+
+    <!--
+        all of these words:
+        this exact word or phrase:
+        any of these words:
+        none of these words:
+    -->
+    <p class="p1">
+        Advanced Search
+    </p>
+
+    <hr style="margin: 0px; padding: 0px; border: 0px; border-bottom: 1px solid #3c4043">
+
+    <p class="p2">Find pages with...</p>
+
+
+    <form action="https://google.com/search" method="get">
+    <div class="grid">
+            <div class="grid-item">
+                <label for="as_q">all of these words:</label>
+            </div>
+            <div class="grid-item">
+                <input type="text" name="as_q" autocomplete="off" class="textbox">
+            </div>
+            <div class="grid-item">
+                <label for="as_epq">this exact word or phrase:</label>
+            </div>
+            <div class="grid-item">
+                <input type="text" name="as_epq" autocomplete="off" class="textbox">
+            </div>
+            <div class="grid-item">
+                <label for="as_oq">any of these words:</label>
+            </div>
+            <div class="grid-item">
+                <input type="text" name="as_oq" autocomplete="off" class="textbox">
+            </div>
+            <div class="grid-item">
+                <label for="as_eq">none of these words:</label>
+            </div>
+            <div class="grid-item">
+                <input type="text" name="as_eq" autocomplete="off" class="textbox">
+            </div>
+            <div class="grid-item">
+            </div>
+            <div class="grid-item" style="text-align: right;">
+                <input id="button" type="submit" value="Advanced Search" style="background: #4487f6; font-size: 12px; width: 150px;">
+            </div>
+    </div>
+    </form>
+
+    </body>
+
+
+</html>

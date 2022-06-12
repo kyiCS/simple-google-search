@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(32 33 36);
+}
+
+#search {
+    border-radius: 25px;
+    border: 1px solid rgb(100, 100, 100);
+    padding: 12px;
+    width: 550px;
+    text-indent: 12px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    margin-bottom: 8px;
+    outline: none;
+}
+
+#search:hover{
+    background-color: rgb(59, 59, 59);
+    border:1px solid rgb(59, 59, 59);
+}
+
+#search:focus{
+    background-color: rgb(59, 59, 59);
+    border:1px solid rgb(59, 59, 59);
+}
+
+
+#button {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: Roboto,arial,sans-serif;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 9px;
+    margin: 11px 4px;   
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 275px;
+    padding: 10px;
+  }
+
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 5px;
+}
+
+.links {
+    color: gray;
+    padding: 10px;
+    font-family: Roboto,arial,sans-serif;
+    font-size: smaller;
+}
+
+.links:link { text-decoration: none; }
+.links:visited { text-decoration: none; }
+.links:hover { text-decoration: underline;}
+.links:active { text-decoration: none; }
+
+.whiteText{
+    font-family: Roboto,arial,sans-serif;
+    color: #bdc1c6;
+}
+
+.textbox{
+    outline: none;
+    width: 99%;
+    background-color: transparent;
+    color: white;
+    border:1px solid rgb(100, 100, 100);
+    height: 23px;
+}
+
+.textbox:focus{
+    border:1px solid #4487f6;
+}
+
+.grid {
+    display: grid;
+    padding: 0 5px 5px 5px;
+    grid-column-gap: 1px;
+    grid-row-gap: 3px;
+    grid-template-columns: 200px auto;
+    margin-left: 50px;
+}
+
+.grid-item {
+    padding: 5px;
+    text-align: left;
+    line-height: 2;
+    font-size: 15px;
+    max-width: 600px;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
+
+.p1{
+    font-size: 20px; 
+    color: #f28b82;
+    font-family: Roboto,arial,sans-serif;
+    padding: 0;
+    margin-left: 50px;
+}
+
+.p2 {
+    font-size: 18px; 
+    color: white;
+    margin-left: 50px;
+}
+
